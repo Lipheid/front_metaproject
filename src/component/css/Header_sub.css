@@ -1,0 +1,64 @@
+.header_sub {
+    height: 20px;
+    width: 1024px;
+
+    top: 10px;
+    margin: 0 auto;
+
+    display: flex;
+
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none
+}
+
+
+/********************로그인 기능(로그인 기능 완성시 컴포넌트화 시킬 예정)************************/
+.mini{
+float: right;
+width: 1600px;
+height: 20px;
+}
+
+.mini .loginmenu{
+    width: 300px;
+    display: flex;
+    height: 20px;
+    float: right;
+   margin-top: 5px;
+
+}
+.mini .loginmenu .option_a{
+width: 45px;
+height:15px;
+font-size: 15px;
+margin-right: 15px;
+color: #7C7C7C;
+}
+
+.mini .loginmenu .option_b{
+    width: 60px;
+    height:15px;
+    font-size: 15px;
+    margin-right: 15px;
+    color: #7C7C7C;
+    }
+.mini .loginmenu .option_c{
+        width: 75px;
+        height:15px;
+        font-size: 15px;
+        margin-right: 15px;
+        color: #7C7C7C;
+    }
+
+.loginmenu .option_a:hover
+{
+color: black;
+}
+.loginmenu  .option_b:hover{
+    color: black;
+}
+.loginmenu  .option_c:hover{
+    color: black;
+}

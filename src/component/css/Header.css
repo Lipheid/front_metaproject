@@ -1,0 +1,76 @@
+.header {
+    height: 100px;
+    width: 1060px;
+    background-color: #586C4C;
+    
+    margin: 0 auto;
+    
+    display: flex;
+    position: relative;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none
+
+
+}
+
+/**햄버거 메뉴였던것**/
+/* .burgers{
+position: absolute;
+top:29px;
+left:130px;
+
+}
+.burgers #check_box {
+    display: none;
+  }
+  
+  .burgers #check_box + label {
+    position: relative;
+    display: block;
+    width: 45px;
+    height: 30px;
+    cursor: pointer;
+  }
+  
+  .burgers #check_box + label > span {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: white;
+    border-radius: 5px;
+    transition: all 300ms;
+  }
+  
+  .burgers #check_box:checked + label > span:nth-child(1) {
+    top: 50%;
+    transform: translate(0, -50%);
+    transform: rotate(45deg);
+  }
+  
+  .burgers #check_box + label > span:nth-child(2) {
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+  
+  .burgers #check_box:checked + label > span:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .burgers  #check_box + label > span:nth-child(3) {
+    bottom: 0;
+  }
+  
+  .burgers #check_box:checked + label > span:nth-child(3) {
+    top: 50%;
+    transform: translate(0, -50%);
+    transform: rotate(-45deg);
+  } */
+/********************로그인 기능(로그인 기능 완성시 컴포넌트화 시킬 예정)************************/
+
+/***********************헤더메뉴*********************/
+
+
+/***************메뉴******************/
