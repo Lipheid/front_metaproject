@@ -1,20 +1,20 @@
-.ads{
+.chatbot_ads{
     width:100%;
     height: 400px;
-    background-color: #0E140A;
+    background-color: #FEFAE0;
     margin: 0 auto;
-    margin-top:15px;
+
 }
-.ads .adsimg{
+.chatbot_ads .adsimg{
     display: flex;
     margin: 0 auto;
     width: 1440px;
     height: 100%;
-    background-image: url(../image/ads/ads_1.svg);
+    background-image: url(../image/ads/chatbot_ads.svg);
     position: relative;
 }
 
-.ads .adsimg .adsimg_1{
+.chatbot_ads .adsimg .adsimg_1{
     position: absolute;
     width:515px;
     height: 230px;
@@ -22,3 +22,4 @@
     left:350px;
 
 }
+

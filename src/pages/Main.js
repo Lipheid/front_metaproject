@@ -1,11 +1,14 @@
 import React, { Component } from 'react'
 import Header from '../component/Header.js';
-import Search from '../component/Search.js';
+import Chatbotads from '../component/Chatbotads.js';
 import Ads from '../component/Ads.js';
 import Header_sub from '../component/Header_sub.js';
-import Main_Logo from '../component/Main_logo.js';
+import Todaybook from '../component/Todaybook.js';
+import Springbook from '../component/Springbook.js'
+import Tail from '../component/Tail.js'
 import './css/Main.css';
 import './css/reset.css'
+
 
 
 export class Main extends Component {
@@ -13,10 +16,12 @@ export class Main extends Component {
         return (
         <div className="main">
         <Header_sub/>
-        <Main_Logo/>
         <Header />
-        <Search/>
         <Ads/>
+        <Chatbotads/>
+        <Todaybook/>
+        <Springbook/>
+        <Tail/>
     </div>
         )
     }

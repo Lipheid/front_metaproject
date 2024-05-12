@@ -1,10 +1,10 @@
 .header {
-    height: 100px;
+    height: 150px;
     width: 1060px;
-    background-color: #586C4C;
+    background-color: white;
     
     margin: 0 auto;
-    
+    margin-top:5px;
     display: flex;
     position: relative;
     -webkit-user-select:none;
@@ -15,59 +15,102 @@
 
 }
 
-/**햄버거 메뉴였던것**/
-/* .burgers{
-position: absolute;
-top:29px;
-left:130px;
+.logo{
+  position: absolute;
+ width:200px;
+ height:40px;
+ left: 160px;
+margin: 0 auto;
+margin-top: 55PX;
+}
+
+.item{
+  width: 240px;
+  margin: 0 auto;
+  display: flex;
+  padding-top: 74px;
+  height: 20px;
+  padding-left: 20px;
+  
+}
+.book_deal{
+ font-size: 20px;
+ width: 80px;
 
 }
-.burgers #check_box {
-    display: none;
-  }
+.search_bookstore{
+  margin-left: 58px;
+  font-size: 20px;
+
+}
+.header .item .item_inner{
+  position: relative;
+}
+.header .item .item_inner:hover
+{
+}
+.header .item .item_inner .item__contents{
+  width: 680px;
+  z-index: 10;
+  position: absolute;
+  left: -260px;
+  height: 0px;
+  overflow: hidden;
+  background-color: white;
+  transition: height 2s, 0.5s;
+}
+.item__contents .booksearch{
+  position: absolute;
+  border: solid #586C4C;
+  top:90px;
+  left: 60px;
+  width: 214px;
+  height: 45px;
+  font-size: 20px;
+  font-weight: 800;
+  text-align: center;
+  line-height: 40px;
+}
+
+.item__contents .booksearch:hover{
+  position: absolute;
+  border: solid #6C584C;
+  background-color: #6C584C;
+  color: white;
+}
+
+.item__contents .bookinput{
+  position: absolute;
+  border: solid #586C4C;
+  top:30px;
+  top:90px;
+  right: 102px;
+  width: 214px;
+  height: 45px;
+  font-size: 20px;
+  font-weight: 800;
+  text-align: center;
+  line-height: 40px;
+ 
+}
+
+.item__contents .bookinput:hover{
+  position: absolute;
+  border: solid #6C584C;
+  background-color: #6C584C;
+  color: white;
+}
+.item__contents .mark{
+  position: absolute;
+  top:15px;
+  left:240px
   
-  .burgers #check_box + label {
-    position: relative;
-    display: block;
-    width: 45px;
-    height: 30px;
-    cursor: pointer;
-  }
-  
-  .burgers #check_box + label > span {
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 3px;
-    background: white;
-    border-radius: 5px;
-    transition: all 300ms;
-  }
-  
-  .burgers #check_box:checked + label > span:nth-child(1) {
-    top: 50%;
-    transform: translate(0, -50%);
-    transform: rotate(45deg);
-  }
-  
-  .burgers #check_box + label > span:nth-child(2) {
-    top: 50%;
-    transform: translate(0, -50%);
-  }
-  
-  .burgers #check_box:checked + label > span:nth-child(2) {
-    opacity: 0;
-  }
-  
-  .burgers  #check_box + label > span:nth-child(3) {
-    bottom: 0;
-  }
-  
-  .burgers #check_box:checked + label > span:nth-child(3) {
-    top: 50%;
-    transform: translate(0, -50%);
-    transform: rotate(-45deg);
-  } */
+
+}
+
+.header .item .item_inner:hover .item__contents{
+  height:235px;
+}
 /********************로그인 기능(로그인 기능 완성시 컴포넌트화 시킬 예정)************************/
 
 /***********************헤더메뉴*********************/

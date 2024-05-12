@@ -1,0 +1,80 @@
+.chatbot_main{
+width: 1060px;
+margin: 0 auto;
+border: 1px solid black;
+}
+
+.chatbot_header{
+    width: 860px; 
+    height: 70px;
+    margin: 0 auto;
+   
+    position: relative;
+}
+.chatbot_header .logo{
+    position: absolute;
+    right: -470px;
+    top:-45px;
+}
+
+.chat-box {
+    width: 860px;
+    height: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .chat-log-box {
+    height: 60vh;
+    overflow: auto;
+   
+  }
+  .chat-log-box .chat-log {
+    list-style: none;
+    padding-left: 0px;
+  }
+  .chat-log-box .chat-log .ai-chat-log {
+
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: left;
+    align-self: flex-start;
+    display: block;
+    margin: 12px;
+    padding: 12px;
+    background-color: #FEFAE0;
+    font-size: 20px;
+  }
+  .chat-log-box .chat-log .user-chat-log {
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: right;
+    align-self: flex-end;
+    display: block;
+    margin: 12px;
+    padding: 12px;
+    background-color: white;
+    font-size: 20px;
+  }
+  
+  .text-box .text-form .text-bar {
+    display: inline;
+    border: 1px solid black;
+    font-size: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 85%;
+  }
+  .text-box .text-form .text-bar .text-bar-button {
+    display: inline;
+    font-size: 20px;
+  }
+  .text-box .text-form input::placeholder {
+    text-align: center;
+  }
+  
+  .book-list .book-info {
+    border: 2px solid black;
+    border-radius: 6px;
+    margin-top: 10px;
+    padding: 8px;
+  }

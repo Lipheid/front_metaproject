@@ -1,24 +1,16 @@
-.ads{
+.springbook{
     width:100%;
     height: 400px;
-    background-color: #0E140A;
+    background-color: #4F2D96;
     margin: 0 auto;
-    margin-top:15px;
+    margin-top:60px;
 }
-.ads .adsimg{
+
+.springbook .springbookimg{
     display: flex;
     margin: 0 auto;
     width: 1440px;
     height: 100%;
     background-image: url(../image/ads/ads_1.svg);
     position: relative;
-}
-
-.ads .adsimg .adsimg_1{
-    position: absolute;
-    width:515px;
-    height: 230px;
-    top:77px;
-    left:350px;
-
 }
